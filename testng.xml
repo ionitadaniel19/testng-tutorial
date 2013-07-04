@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="My test suite">
+    <parameter name="number" value="104"/>
+    <test name="testing">
+ <!--       <groups>
+            <run>
+                <include name="method1"/>
+            </run>
+        </groups>-->
+ <!--       <classes>
+            <class name="org.n3r.demo.testng.TestNGTest5_2_0" />
+            <class name="org.n3r.demo.testng.TestNGTest1" />
+            <class name="org.n3r.demo.testng.TestNGTest2" />
+        </classes>-->
+        <packages>
+            <!--<package name="org.n3r.demo.testng"/>-->
+            <package name="com.demo"/>
+        </packages>
+    </test>
+</suite>
