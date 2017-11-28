@@ -13,7 +13,7 @@
             <class name="org.n3r.demo.testng.TestNGTest2" />
         </classes>-->
         <packages>
-            <!--<package name="org.n3r.demo.testng"/>-->
+            <package name="org.n3r.demo.testng"/>
             <package name="com.demo"/>
         </packages>
     </test>
