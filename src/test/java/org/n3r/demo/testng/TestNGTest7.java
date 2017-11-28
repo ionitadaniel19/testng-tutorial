@@ -1,6 +1,7 @@
 package org.n3r.demo.testng;
 
 import org.testng.annotations.*;
+import org.testng.Assert; 
 
 /**
  * TestNG Dependency Test
@@ -17,6 +18,7 @@ public class TestNGTest7 {
     @Test
     public void method2() {
         System.out.println("This is method 2");
+        Assert.assertEquals(1,2); 
     }
 
 
